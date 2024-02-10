@@ -3,17 +3,17 @@
 [![](../../workflows/gh-pages/badge.svg)](../../actions)
 
 
-This project is an example of using GitHub Actions to automatically deploy a .NET 5 client-side
+This project is an example of using GitHub Actions to automatically deploy a .NET 8 client-side
 Blazor app to Github Pages. For a live demo, check the following link:
 
 https://blazorgithubpages.github.io
 
-Microsoft Docs already contains a [general overview](https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/blazor/client-side?view=aspnetcore-5.0#github-pages)
+Microsoft Docs already contains a [general overview](https://learn.microsoft.com/en-us/aspnet/core/blazor/host-and-deploy/webassembly?view=aspnetcore-8.0#github-pages)
 of the steps needed for a successful deploy.
 
 
 This project differs from [the project from which it's forked](https://github.com/fernandreu/blazor-pages) in that:
-- It is .NET 5, not .NET Core 3.1
+- It is .NET 8, not .NET Core 3.1
 - Fewer steps from fork to running site (see below)
 
 ## How to deploy
